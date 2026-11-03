@@ -40,38 +40,9 @@ Technologies used in my public projects, grouped by area—not a proficiency ran
 
 **Currently exploring:** containerization and orchestration with Docker and Kubernetes.
 
-## Selected projects
-
-### [ParkTick](https://github.com/Evolt0/ParkTick) — Offline parking timer
-
-Photograph a vehicle, recognize and confirm its plate on-device, and track parking time from the moment the photo was taken. No account, backend, or always-running background service.
-
-- **Data & time:** Room persistence, duplicate active-plate detection, and timing recovery across process restarts and device reboots.
-- **Privacy & recognition:** App-private photos, cleanup when parking ends, and JNI integration with HyperLPR3, MNN, and OpenCV.
-- **Status:** Prerelease validation; target-device testing and recognition-quality acceptance remain open.
-
-### [tern-go-navigation](https://github.com/Evolt0/tern-go-navigation) — Go code navigation
-
-Find definitions and references, search project symbols, and preview source before jumping—all inside Tern's native editor.
-
-- **Interaction:** Unsaved buffers, selected-identifier queries, and per-window jump history without forced saves.
-- **Implementation:** Go backend + Luau frontend, reusable gopls sessions and persistent indexes, with macOS / Linux release packages.
-
-### [tern-java-navigation](https://github.com/Evolt0/tern-java-navigation) — Java / Kotlin navigation
-
-Bring Java and Kotlin definitions, references, and project-symbol search to Tern, sharing the Go plugin's navigation UI and jump history.
-
-- **Language services:** A Go bridge to Eclipse JDT LS and JetBrains Kotlin LSP, started on demand and reused across queries.
-- **Indexing & boundaries:** Incremental buffer synchronization and per-file symbol-cache invalidation; cross-language coverage follows the underlying servers' capabilities.
-
-### [svcutils](https://github.com/Evolt0/svcutils) — Go service utilities
-
-An earlier collection of backend building blocks: Redis, MongoDB, SQLx, and Kubernetes clients, plus configuration, JWT, and caching helpers.
-
 ---
 
-<details>
-<summary>GitHub stats · Activity & language breakdown</summary>
+## GitHub activity
 
 <p align="center">
   <a href="https://github.com/Evolt0">
@@ -85,5 +56,3 @@ An earlier collection of backend building blocks: Redis, MongoDB, SQLx, and Kube
 <p align="center">
   <a href="https://github.com/Evolt0?tab=overview#year-list-container">View full contribution history →</a>
 </p>
-
-</details>
